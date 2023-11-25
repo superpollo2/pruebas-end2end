@@ -3,7 +3,6 @@ describe('Prueba para crear una queja', () => {
       cy.visit('http://localhost:3000/');
       cy.wait(2000);
       /*Mal comportamiento */
-      cy.get('.swal2-confirm').click();
       cy.wait(2000);
       cy.contains('button', 'Añadir PQRS').click();
       cy.wait(2000);
@@ -16,7 +15,6 @@ describe('Prueba para crear una queja', () => {
       cy.contains('button','Volver').click();
       cy.wait(2000);
       /*Estado del vehículo*/
-      cy.get('.swal2-confirm').click();
       cy.wait(2000);
       cy.contains('button', 'Añadir PQRS').click();
       cy.wait(2000);
@@ -29,7 +27,6 @@ describe('Prueba para crear una queja', () => {
       cy.contains('button','Volver').click();
       cy.wait(2000);
       /*Cobro inadecuado*/
-      cy.get('.swal2-confirm').click();
       cy.wait(2000);
       cy.contains('button', 'Añadir PQRS').click();
       cy.wait(2000);
@@ -42,7 +39,6 @@ describe('Prueba para crear una queja', () => {
       cy.contains('button','Volver').click();
       cy.wait(2000);
       /*Otro*/
-      cy.get('.swal2-confirm').click();
       cy.wait(2000);
       cy.contains('button', 'Añadir PQRS').click();
       cy.wait(2000);
